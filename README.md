@@ -1,3 +1,9 @@
+
+
+#tour app made with react
+#material bootstrap design 
+#redux tool kit
+#socket-io-client
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
