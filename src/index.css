@@ -1,13 +1,151 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header-text {
+  color: #606080;
+  font-weight: 500;
+  margin-top: 18px;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.tag-card {
+  margin: 10px 0 0 20px;
+  color: #806a78;
+}
+
+.tourName {
+  color: "#F48FB1";
+  font-size: 18px;
+  margin: 0 0 0 4px;
+  font-weight: 500;
+}
+
+.tagErrMsg {
+  color: #f93154;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+h4 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h4:before,
+h4:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h4:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h4:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+/* notification */
+.notifications {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  color: black;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid;
+  width: 300px;
+}
+
+.notification {
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* popular tag */
+.title {
+  font-size: 22px;
+  color: #ff4422;
+
+}
+
+.tag-label ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -27px 0;
+}
+
+ .tag {
+  list-style: none;
+  display: flex;
+  height: 28px;
+  background-color: rgba(155,155,155,0.08);
+  font-size: 14px;
+  font-weight: 400;
+  align-items: center;
+  padding: 0 12px;
+}
+
+/* category */
+.categoryDropdown {
+  width: 100%;
+  border-radius: 4px;
+  height: 35px;
+  border-color: #83ccc5;
+  color: #806a78;
+}
+
+.categoryErrorMsg {
+  color: red;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Profile */
+.info {
+  font-size: 16px !important;
+  color: #6c757d!important;
+  font-weight: 400 !important;
+}
+
+/* scroll */
+.scroll-to-top {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+  z-index: 1;
 }
