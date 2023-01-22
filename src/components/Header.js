@@ -108,7 +108,7 @@ const Header = ({ socket }) => {
             cursor: "pointer",
           }}
         >
-          Outination
+          Outing
         </div>
         <MDBNavbarToggler
           type="button"
