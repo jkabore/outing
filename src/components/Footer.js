@@ -9,7 +9,7 @@ const Footer = () => {
           className="text-center p-2"
           style={{ backgroundColor: "#6188A2 ", color: "#fff" }}
         >
-          jkabore © 2022 Copyright:
+          jkabore © Copyright:
           <a className="text-reset fw-bold" href="/">
             &nbsp;Outing
           </a>
