@@ -6,11 +6,11 @@ const Badge = ({ children }) => {
     Sea: "primary",
     Beach: "info",
     Temple: "danger",
-    Hill: "light",
+    Hill: "dark",
     Historic: "info",
-    Animal:"secondary",
-    Nature:"success",
-    Park:"dark"
+    Animal: "secondary",
+    Nature: "success",
+    Park: "dark",
   };
   return (
     <h5 className="mt-1">
