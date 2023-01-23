@@ -68,7 +68,7 @@ const SingleTour = () => {
                 {tour &&
                   tour.tags &&
                   tour.tags.map((item, index) => (
-                    <div key={index}>`#${item} `</div>
+                    <div key={index}>{item} </div>
                   ))}
               </span>
             </div>
